@@ -16,7 +16,7 @@ let isFormSubmitted = false;
   
 {:else}
 <form on:submit{handleSubmit}>
-<img class="icon-complete" alt="icon-complete" src="/images/icon-complete.svg">
+<img class="icon-complete" alt="icon-complete" src="images/icon-complete.svg">
 <p class="text">THANK YOU</p>
 <p class="text-detail">We’ve added your card details</p>
 <button class ="btn-continue" type="submit">Continue</button>

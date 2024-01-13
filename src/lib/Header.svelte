@@ -18,15 +18,15 @@
   </script>
   
   <header>
-    <img class="bg-mobile" alt="bg-main-mobile img" src= "/images/bg-main-mobile.png" />
+    <img class="bg-mobile" alt="bg-main-mobile img" src="../images/bg-main-mobile.png" />
       <section class="cards">
         <figure class="card-back">
-          <img alt="card-back img" src="/images/bg-card-back.png" />
+          <img alt="card-back img" src="images/bg-card-back.png" />
           <p class="cvc">{cvv}</p>
         </figure>
         <figure class="card-front">
-          <img class="bg-card-front" alt="bg-card-front" src="/images/bg-card-front.png" />
-          <img class="details" alt="card logo" src="/images/card-logo.svg">
+          <img class="bg-card-front" alt="bg-card-front" src="./images/bg-card-front.png" />
+          <img class="details" alt="card logo" src="./images/card-logo.svg">
           <p class="card-number-result">  {formatCardNumber(cardNumber)}</p>
           <span class="info">
           <p class="cardholder-name-result">{username}</p>
