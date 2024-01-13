@@ -18,10 +18,10 @@
   </script>
   
   <header>
-    <img class="bg-mobile" alt="bg-main-mobile img" src="../images/bg-main-mobile.png" />
+    <img class="bg-mobile" alt="bg-main-mobile img" src="./images/bg-main-mobile.png" />
       <section class="cards">
         <figure class="card-back">
-          <img alt="card-back img" src="images/bg-card-back.png" />
+          <img alt="card-back img" src="./images/bg-card-back.png" />
           <p class="cvc">{cvv}</p>
         </figure>
         <figure class="card-front">
